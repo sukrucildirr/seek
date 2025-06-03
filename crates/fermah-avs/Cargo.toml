@@ -33,7 +33,7 @@ fermah-common = { workspace = true }
 fermah-config = { workspace = true }
 fermah-database = { workspace = true, optional = true }
 
-# External dependenices
+# External dependencies
 const-hex = { workspace = true }
 tokio = { workspace = true }
 ethers = { workspace = true }
