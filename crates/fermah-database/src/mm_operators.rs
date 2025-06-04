@@ -141,7 +141,7 @@ impl Database {
             .context("query set_last_assignment failed")
     }
 
-    ///// Returns an aggreagation of opeators: All in the DB, online, registered as online, but not responsive
+    ///// Returns an aggregation of operators: All in the DB, online, registered as online, but not responsive
     pub fn get_operator_counts(&self) -> Result<(u64, u64, u64)> {
         let mut conn = self
             .pool
