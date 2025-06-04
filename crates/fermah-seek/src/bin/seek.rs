@@ -418,7 +418,7 @@ async fn run() -> Result<(), Error> {
                 .update_balance()
                 .await?;
 
-            info!("Sucessfully deposited {amount} into vault")
+            info!("Successfully deposited {amount} into vault")
         }
         ClientCommands::UpdateBalance {
             profile_key,
